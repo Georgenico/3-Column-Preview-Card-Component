@@ -99,10 +99,10 @@ body {
     flex-direction: column;
     width: 90%;
     justify-content: center;
-    height: 117.5rem;
+    height: auto;
     margin-top: 4rem;
-    overflow: hidden;
   }
+
   .icon {
     height: 4.4rem;
   }
