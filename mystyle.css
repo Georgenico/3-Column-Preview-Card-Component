@@ -45,9 +45,10 @@ body {
   margin-bottom: 8rem;
 }
 .icon {
-  height: 3rem;
-  width: 5rem;
+  height: 4.4rem;
+  width: 6.4rem;
   margin-bottom: 2.4rem;
+  display: inline-block;
 }
 
 .btn {
@@ -89,14 +90,20 @@ body {
 
 @media (min-width: 320px) and (max-width: 479px) {
   body {
-    height: auto;
+    height: 150rem;
+    flex-direction: column;
+    justify-content: start;
   }
   .section-container {
     display: flex;
     flex-direction: column;
     width: 90%;
     justify-content: center;
-    align-items: flex-start;
-    height: auto;
+    height: 117.5rem;
+    padding-top: 4rem;
+    overflow: hidden;
+  }
+  .icon {
+    height: 4.4rem;
   }
 }
