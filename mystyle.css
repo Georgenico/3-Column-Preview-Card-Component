@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
 }
 
 .section-container {
@@ -22,6 +23,7 @@ body {
   font-size: 1.6rem;
   border-radius: 0.8rem;
   overflow: hidden;
+  margin-bottom: 3.2rem;
 }
 
 .container {
@@ -88,7 +90,12 @@ body {
   background-color: hsl(179, 100%, 13%);
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
+.footer {
+  font-size: 2rem;
+  color: #777;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
   body {
     height: 150rem;
     flex-direction: column;
@@ -105,5 +112,62 @@ body {
 
   .icon {
     height: 4.4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 791px) {
+  .section-container {
+    width: 90%;
+  }
+  .text-description {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 792px) and (max-width: 870px) {
+  .section-container {
+    width: 95%;
+  }
+  .text-description {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 871px) and (max-width: 973px) {
+  .section-container {
+    width: 85%;
+  }
+  .text-description {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 974px) and (max-width: 1047px) {
+  .section-container {
+    width: 95%;
+  }
+  .text-description {
+    margin-bottom: 4.5rem;
+  }
+}
+
+@media (min-width: 1048px) and (max-width: 1181px) {
+  .section-container {
+    width: 70%;
+  }
+  .text-description {
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1326px) {
+  .section-container {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1326px) and (max-width: 1600px) {
+  .section-container {
+    width: 80%;
   }
 }
